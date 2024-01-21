@@ -27,7 +27,7 @@ const loading = () => {
                 <Skeleton className='relative ml-28 mt-6 hidden h-[218px] w-[425px] lg:flex bg-white'/>
              </div>
               <div className='flex-1 flex-col lg:mb-12 justify-end'>
-              <Skeleton className="w-[400px] h-[470px] rounded-lg bg-white text-transparent rounded-lg object-contain lg:rotate-12" />
+              <Skeleton className="w-[400px] h-[470px] rounded-lg bg-white text-transparent  object-contain lg:rotate-12" />
               </div>
             </section>
     
