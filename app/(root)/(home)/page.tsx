@@ -4,7 +4,6 @@ import React from 'react'
 import {getResources, getResourcesPlaylist} from '@/sanity/action'
 import ResourceCard from '@/components/ResourceCard'
 import Header from '@/components/Header'
-import { query } from 'firebase/database'
 
 interface Props{
    searchParams: { [key: string ]: string | undefined }
