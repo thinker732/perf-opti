@@ -6,7 +6,16 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Javascript Mastery',
-  description: 'JS Mastery platform',
+  description: 'JS Mastery platform copy',
+  other:{
+    'theme-color':'#0d1117',
+    "color-scheme":"dark only",
+    "twitter:image": 'https://i.ibb.co/d6TXxB2/homepage-thumbnail.jpg',
+    "twitter:card": "summary_large_image",
+    "og:url": "jsmastery.pro",
+    "og:image": 'https://i.ibb.co/d6TXxB2/homepage-thumbnail.jpg',
+    "og:type": "website",
+  }
 }
 
 export default function RootLayout({
